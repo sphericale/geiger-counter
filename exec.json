@@ -1,0 +1,26 @@
+{
+        "geiger_CPM": {
+                "title": "Geiger counter on {{HOST}}",
+                "vertical": "Counts per minute",
+                "rrdtool_opts": ["-X", "0"],
+                "type": "default",
+                "legend": {
+                        "cpm": {
+                                "name": "CPM"
+                        }
+                },
+                "legend_format": "%5.1lf"
+        },
+        "geiger_CPS": {
+                "title": "Geiger counter on {{HOST}}",
+                "vertical": "Counts per second",
+                "rrdtool_opts": ["-X", "0"],
+                "type": "default",
+                "legend": {
+                        "cps": {
+                                "name": "CPS"
+                        }
+                },
+                "legend_format": "%5.1lf"
+        }
+}
